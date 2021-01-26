@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="32473" started-at="2021-01-10T02:01:33Z" finished-at="2021-01-10T02:02:05Z">
+    <groups>
+    </groups>
+    <test name="LoginInToSurveyMonkeyApplication Test" duration-ms="32442" started-at="2021-01-10T02:01:33Z" finished-at="2021-01-10T02:02:05Z">
+      <class name="testNgConcepts.Tc003_LoginIntoSurveyMonkeyApplication">
+        <test-method status="PASS" signature="invokeApplication()[pri:1, instance:testNgConcepts.Tc003_LoginIntoSurveyMonkeyApplication@1677d1]" name="invokeApplication" duration-ms="24478" started-at="2021-01-10T02:01:33Z" finished-at="2021-01-10T02:01:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeApplication -->
+        <test-method status="PASS" signature="loginIntoApplication()[pri:2, instance:testNgConcepts.Tc003_LoginIntoSurveyMonkeyApplication@1677d1]" name="loginIntoApplication" duration-ms="7929" started-at="2021-01-10T02:01:57Z" finished-at="2021-01-10T02:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginIntoApplication -->
+      </class> <!-- testNgConcepts.Tc003_LoginIntoSurveyMonkeyApplication -->
+    </test> <!-- LoginInToSurveyMonkeyApplication Test -->
+    <test name="DisplayMessagesTest" duration-ms="9" started-at="2021-01-10T02:02:05Z" finished-at="2021-01-10T02:02:05Z">
+      <class name="testNgConcepts.Tc001_DisplayMessages">
+        <test-method status="PASS" signature="displayMessage()[pri:0, instance:testNgConcepts.Tc001_DisplayMessages@1552bd3]" name="displayMessage" duration-ms="3" started-at="2021-01-10T02:02:05Z" finished-at="2021-01-10T02:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayMessage -->
+        <test-method status="PASS" signature="displayName()[pri:0, instance:testNgConcepts.Tc001_DisplayMessages@1552bd3]" name="displayName" duration-ms="1" started-at="2021-01-10T02:02:05Z" finished-at="2021-01-10T02:02:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayName -->
+      </class> <!-- testNgConcepts.Tc001_DisplayMessages -->
+    </test> <!-- DisplayMessagesTest -->
+  </suite> <!-- Regression Suite -->
+</testng-results>

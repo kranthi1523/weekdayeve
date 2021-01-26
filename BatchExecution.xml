@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite">
+  <test  name="LoginInToSurveyMonkeyApplication Test">
+    <classes>
+      <class name="testNgConcepts.Tc003_LoginIntoSurveyMonkeyApplication"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="DisplayMessagesTest">
+  <classes>
+  <class name="testNgConcepts.Tc001_DisplayMessages"/>
+  </classes>
+  </test>
+</suite> <!-- Regression Suite -->
